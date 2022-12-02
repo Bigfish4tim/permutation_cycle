@@ -39,11 +39,11 @@ public class AL_10451 {
             map = new int[N+1];
             count = 0;
 
-            st = new StringTokenizer(br.readLine());
             for(int j=1; j<N+1; j++) {
                 map[j] = j;
             }
 
+            st = new StringTokenizer(br.readLine());
             for(int j=1; j<N+1; j++) {
                 int b = Integer.parseInt(st.nextToken());
                 union(j, b);
